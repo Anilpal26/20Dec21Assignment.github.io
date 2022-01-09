@@ -1,0 +1,32 @@
+
+.bodyCenter{
+    text-align: center;
+}
+
+img{
+    margin-top: 20px;
+    height: 300px;
+    width: 400px;
+}
+
+p.b{
+    color: red;
+}
+
+h4{
+    color: royalblue;
+}
+
+h3, .class1 {
+    color: rgb(89, 117, 46);
+}
+
+p{
+    color: maroon;
+}
+
+.button{
+    border-radius: 2px;
+    color: maroon;
+    background-color: mediumspringgreen;
+}

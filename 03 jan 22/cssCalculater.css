@@ -1,0 +1,41 @@
+.tableMargin{
+    margin-top: 100px;
+    background-color: grey;
+    padding: 10px;
+}
+
+thead{
+    width: 150px;
+    height: 80px;
+    border-color: rgb(48, 54, 61);
+}
+
+td{
+    min-width: 30px;
+    background-color: rgb(74, 77, 80);
+    padding: 15px;
+    border-color: rgb(70, 84, 97);
+    color: whitesmoke;
+}
+
+.skyBtn{
+    background-color: skyblue;
+}
+
+.choclateBTN{
+    background-color: rgb(153, 148, 145);
+}
+
+.silverScreen{
+    background-color: silver;
+    border: 20px;
+}
+
+.whiteBTN{
+    background-color: whitesmoke;
+    color: black;
+}
+
+.redBTN{
+    color: red;
+}
