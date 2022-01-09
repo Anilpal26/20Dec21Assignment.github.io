@@ -1,0 +1,30 @@
+.div1{
+    margin: 20px;
+    height: 700px;
+    width: 600px;
+    border: double;
+}
+
+#para::first-letter{
+   font-size: 50px;
+}
+.div2{
+    height: 660px;
+    width: 560px;
+    border: double;
+    border-color: rgb(226, 8, 8);
+    margin: 20px;
+}
+
+.div3{
+        height: 620px;
+        width: 520px;
+        border: double;
+        border-color: rgb(15, 69, 170);
+        margin: 20px;
+}
+
+.lorem::first-letter{
+    color: rgb(255, 0, 0);
+    size: 50px;
+}
