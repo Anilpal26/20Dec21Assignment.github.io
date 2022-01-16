@@ -1,0 +1,20 @@
+.contact{
+    width: 300px;
+    height: 550px;
+    background-color: white;
+    border: 2px solid grey;
+    overflow-y: scroll;
+    text-align: center;
+}
+.myContacts{
+    background-color: grey;
+    position: fixed;
+    width: 300px;
+}
+h3{
+    margin-top: 80px;
+    background-color: grey;
+    padding-left: 30px;
+    position: sticky;
+    top: 70px;
+}
