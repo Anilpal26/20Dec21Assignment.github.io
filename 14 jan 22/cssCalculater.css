@@ -1,0 +1,85 @@
+ .cal1{
+    margin-top: 100px;
+    width: 400px;
+    height: auto;
+    background-color: grey;
+    padding: 10px;
+}
+.p{
+    width: 400px;
+    height: 50px;
+    background-color: silver;
+    border: 3px solid rgb(80, 80, 80);
+    vertical-align: middle;
+}
+h1{
+    background-color: rgba(197, 219, 188, 0.171);
+    border: 3px solid  rgba(197, 219, 188, 0);
+}
+.btnRow1{
+    color: whitesmoke;
+    background-color: skyblue;
+    padding-left: 50px;
+}
+.btnRow1B3{
+    background-color: rgb(153, 148, 145);
+    color:  rgb(153, 148, 145);
+    padding-left: 120px;
+}
+.btnrow2{
+    color:black;
+    background-color: whitesmoke;
+    padding-left: 22px;
+}
+.btnrow23{
+    background-color: rgb(74, 77, 80);
+    color: whitesmoke;
+    padding-left: 22px;
+}
+.btnrow3{
+    background-color: rgb(74, 77, 80);
+    color: whitesmoke;
+    padding-left: 29px;
+}
+.btnrow4{
+    background-color: rgb(74, 77, 80);
+    color: whitesmoke;
+    padding-left: 28px;  
+}
+
+
+
+
+thead{
+    width: 150px;
+    height: 80px;
+    border-color: rgb(48, 54, 61);
+}
+
+td{
+    min-width: 30px;
+    padding: 15px;
+    border-color: rgb(70, 84, 97);
+}
+
+.skyBtn{
+    background-color: skyblue;
+}
+
+.choclateBTN{
+    background-color: rgb(153, 148, 145);
+}
+
+.silverScreen{
+    background-color: silver;
+    border: 20px;
+}
+
+.whiteBTN{
+    background-color: whitesmoke;
+    color: black;
+}
+
+.redBTN{
+    color: red;
+}

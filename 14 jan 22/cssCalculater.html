@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title>Calculator</title>
+        <meta charset="UTF-8" /> <!-- SJIS (Shift JIS) -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+       <link rel="stylesheet" href="cssCalculater.css">
+    </head>
+    <body>
+        <div align="center">
+            <div class="cal1">
+                  <!-- <h1 id="output">&nbsp;</h1> -->
+                  <p id="output" class="p">000</p>
+            <div class="row">
+                <button class="btnRow1">Check<br/>==></button>
+                <button class="btnRow1">Correct <br/>delete</button>
+                <button class="btnRow1B3">Correct <br/>delete</button>
+            </div> 
+            <div class="row">
+                <button class="btnrow2">GT</button>
+                <button class="btnrow23" onClick='concatNumber("7");'>7</button>
+                <button class="btnrow23" onClick='concatNumber("8");'>8</button>
+                <button class="btnrow23" onClick='concatNumber("9");'>9</button>
+                <button class="btnrow23" onClick='setOperator("/");'>/</button>
+                <button class="btnrow23">ME+</button>
+                <button class="btnrow23">ON/OFF</button>
+            </div>
+            <div class="row">
+                <button class="btnrow2">MU</button>
+                <button class="btnrow3" onClick='concatNumber("4");'>4</button>
+                <button class="btnrow3" onClick='concatNumber("5");'>5</button>
+                <button class="btnrow3" onClick='concatNumber("6");'>6</button>
+                <button class="btnrow3" onClick='setOperator("x");'>x</button>
+                <button class="btnrow3">%</button>
+                <button class="btnrow3">MRC</button>
+            </div>
+            <div class="row">
+                <button class="btnrow2">+/-</button>
+                <button class="btnrow4" onClick='concatNumber("1");'>1</button>
+                <button class="btnrow4" onClick='concatNumber("2");'>2</button>
+                <button class="btnrow4" onClick='concatNumber("3");'>3</button>
+                <button class="btnrow4" onClick='setOperator("-");'>-</button>
+                <button class="btnrow4" onClick='setOperator("+");'>+</button>
+                <button class="btnrow4">ME</button>
+            </div>
+            <div class="row">
+                <button class="btnrow2">CE</button>
+                <button class="btnrow4" onClick='concatNumber("0");'>0</button>
+                <button class="btnrow4">00</button>
+                <button class="btnrow4">.</button>
+                <button class="btnrow4" onClick='result()'>=</button>
+                <button class="btnrow4" onClick='deleteLastDigit()'>◀■</button>
+                <button class="btnrow4" onClick='deleteALL()'>CLEAR</button>
+
+                <!-- <button onClick='concatNumber("0");'>0</button>
+                <br />
+                <button onClick='setOperator("+");'>+</button>
+                <button onClick='setOperator("*");'>*</button>
+                <button onClick="equals();">=</button>
+                <button onClick="deleteLastDigit();">⬅</button>
+                <button onClick="clearAll();">C</button> -->
+
+            </div>
+            </div>
+        </div>
+        <script src="cssCalculater.js"></script>
+    </body>
+</html>
