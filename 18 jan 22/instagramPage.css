@@ -56,6 +56,12 @@ button{
     position: absolute;
     margin-left: 15px;
 }
+.saveBtn{
+    margin-top: 60px;
+    position: absolute;
+    margin-left: 15px;
+    margin-left: 370px;
+}
 
 .commentDiv{
     margin-top: 33px;
