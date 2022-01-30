@@ -1,0 +1,15 @@
+tr{
+    position: relative;
+}
+td{
+    border: 2px solid maroon;
+    justify-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+td:hover{
+    border: 2px solid maroon;
+    transform: scale(1.2);
+    border-radius: 5px;
+    cursor: pointer;
+}
