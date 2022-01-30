@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right, #7507a0, #d24636);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.mainDiv{
+    border: 2px solid blue;
+    background-color: white;
+    padding: 30px;
+    width: 400px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #f7e3ff, #fa7c6e);
+}
+.form-control{
+    margin: 10px;
+    position: relative;
+}
+.form-control input{
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid black;
+    box-sizing:border-box;
+}
+.submitBTN{
+    display: block;
+    width: 95%;
+    background-image: linear-gradient(to right, #7507a0, #d24636);
+    border-radius: 5px;
+    margin: 20px 0px 0px 8px;
+    padding: 10px;
+    font-weight: 600;
+    border:1px solid #920292
+}
+.submitBTN:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #920292;
+}
+.form-control.failer input{
+    border-color: tomato;
+}
+small{
+    color: tomato;
+}
+.form-control i{
+    position: relative;
+    /* padding-left: 300px; */
+    /* padding-bottom: -10px; */
+    float: right;
+    bottom: 17px;
+    right: 10px;
+    visibility: hidden;
+}
+.form-control.failer i.fa-exclamation{
+    visibility: visible;
+    border-color: tomato;
+}
